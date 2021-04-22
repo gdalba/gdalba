@@ -40,8 +40,7 @@ approximately 150 known species that form a clade of pre-bilateran
 animals \[13\]. Ctenophores haven’t yet been fully explored and thus,
 they remain a promising and quite unknown group.
 
-![Schema of phylogenetic position of Mnemiopsis
-leidyi](C:/Users/heavy/Documents/gdalba/Project/Group_Project/Mle.jpg)
+![Schema of phylogenetic position of Mnemiopsis leidyi](Mle.jpg)
 
 ### 1.2 Original Study
 
@@ -71,8 +70,7 @@ FLX machine located at the Roche Applied Science centre in Indianapolis,
 IN. 7,334,972 raw reads with an Average read length of 339 bases were
 generated in nine runs, yielding 2.5 Gb of sequence.
 
-![Location where wild ctenophores were
-collected.](C:/Users/heavy/Documents/gdalba/Project/Group_Project/woodshole.png)
+![Location where wild ctenophores were collected.](woodshole.png)
 
 Raw reads were then submitted for assembly using the Phusion assembler
 \[14\], resulting in 24,884 contigs with a total of 150,340,428 bases
@@ -655,14 +653,12 @@ The following is a snap shot from the *Mnemiopsis leidyi* genome portal
 track for the gene region of interest. This viewer can be interrogated
 similarly to the IGV.
 
-![Mnemiopsis leidyi Genome Portal Track for
-ML00441a](C:/Users/heavy/Documents/gdalba/Project/Group_Project/Track.png)
+![Mnemiopsis leidyi Genome Portal Track for ML00441a](Track.png)
 
 This region of interest can be further zoomed in, in order to see the
 more information from the Reference sequence as well:
 
-![Mnemiopsis leidyi Genome Portal Track for
-ML00441a](C:/Users/heavy/Documents/gdalba/Project/Group_Project/Track_Zoom.png)
+![Mnemiopsis leidyi Genome Portal Track for ML00441a](Track_Zoom.png)
 
 #### 2.4.2 BLAST
 
@@ -684,13 +680,11 @@ The results can be seen below:
 
 **Nucleotide Blast search results** </br>
 
-![Nucleotide Blast Search
-results](C:/Users/heavy/Documents/gdalba/Project/Group_Project/BLASTN_ML00441a.png)
+![Nucleotide Blast Search results](BLASTN_ML00441a.png)
 
 **Nucleotide Blast search results** </br>
 
-![Protein Blast Search
-results](C:/Users/heavy/Documents/gdalba/Project/Group_Project/BLASTP_ML00441a.png)
+![Protein Blast Search results](BLASTP_ML00441a.png)
 
 #### 2.4.3 Create a Phylogenetic Tree using FigTree.
 
@@ -749,8 +743,7 @@ muscle -in ./BLAST_P.fasta -quiet -fasta -out BLASTP_Aligned.fasta
 /nfs/public/ro/es/appbin/linux-x86_64/clustalw-2.1/bin/clustalw2 -infile=simple_phylogeny-I20210422-022731-0145-87347698-p1m.upfile -tree -outputtree=phylip -clustering=Neighbour-joining
 ```
 
-![Phylogenetic
-Tree](C:/Users/heavy/Documents/gdalba/Project/Group_Project/BLAST_PTree1.jpg)
+![Phylogenetic Tree](BLAST_PTree1.jpg)
 
 In our tree we can see the Ctenophora as the earliest clade (the
 ML00441a gene region is annotated green), with the Cnidaria in a sister

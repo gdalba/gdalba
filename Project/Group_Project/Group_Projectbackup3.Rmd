@@ -17,7 +17,7 @@ Investigating the mechanisms that allows multicellularity to emerge is fundament
 
 Ctenophores have been proposed as a model organism for understanding the evolutionary mechanisms of multicellularity in animals [10-12], however their phylogenetic placement is still widely debated [10-12]. Ctenophores are a gelatinous phylum of marine metazoans with approximately 150 known species that form a clade of pre-bilateran animals [13]. Ctenophores haven't yet been fully explored and thus, they remain a promising and quite unknown group.
 
-![Schema of phylogenetic position of Mnemiopsis leidyi](C:/Users/heavy/Documents/gdalba/Project/Group_Project/Mle.jpg)
+![Schema of phylogenetic position of Mnemiopsis leidyi](Mle.jpg)
 
 ### 1.2 Original Study
 
@@ -27,7 +27,7 @@ The paper describes the first attempt to provide a reference genome to the cteno
 
 Ryan et al collected two wild animals from the Vineyard Sound near Woods Hole, Massachussets (Fig. 2) [10]. Those animals were self-fertilized and DNA was isolated from the resulting embryos of one of them. Details of the DNA isolation protocol were not disclosed, but the authors mention the use of "GS FLX Titanium Rapid Library Preparation Kit" and the "GS FLX Titanium Library Paired End Adaptors Kit". The resulting isolated DNA was used for sequencing using a Roche 454 Genome Sequencer FLX machine located at the Roche Applied Science centre in Indianapolis, IN. 7,334,972 raw reads with an Average read length of 339 bases were generated in nine runs, yielding 2.5 Gb of sequence.
 
-![Location where wild ctenophores were collected.](C:/Users/heavy/Documents/gdalba/Project/Group_Project/woodshole.png)
+![Location where wild ctenophores were collected.](woodshole.png)
 
 Raw reads were then submitted for assembly using the Phusion assembler [14], resulting in 24,884 contigs with a total of 150,340,428 bases and a reported N50 of 11,936 bases. The authors proceeded to sequence the embryos of the second wild animal using Illumina GA-iiX system. The resulting paired-end reads were filtered, mapped to the 24,884 assembled contigs using Illumina's short read aligner ELAND, and integrated into Phusion's scaffolding step. This resulted in 5,100 scaffolds with an N50 of 187 Kb and an coverage of 160X.
 
@@ -499,11 +499,11 @@ In the original study, Ryan et al. suggested through phylogenetic analysis that 
 
 The following is a snap shot from the *Mnemiopsis leidyi* genome portal track for the gene region of interest. This viewer can be interrogated similarly to the IGV. 
 
-![Mnemiopsis leidyi Genome Portal Track for ML00441a](C:/Users/heavy/Documents/gdalba/Project/Group_Project/Track.png)
+![Mnemiopsis leidyi Genome Portal Track for ML00441a](Track.png)
 
 This region of interest can be further zoomed in, in order to see the more information from the Reference sequence as well:
 
-![Mnemiopsis leidyi Genome Portal Track for ML00441a](C:/Users/heavy/Documents/gdalba/Project/Group_Project/Track_Zoom.png)
+![Mnemiopsis leidyi Genome Portal Track for ML00441a](Track_Zoom.png)
 
 #### 2.4.2 BLAST 
 
@@ -513,11 +513,11 @@ BLAST describe the E value (the expect value) as the random chance we could "exp
 
 **Nucleotide Blast search results** </br>
 
-![Nucleotide Blast Search results](C:/Users/heavy/Documents/gdalba/Project/Group_Project/BLASTN_ML00441a.png)
+![Nucleotide Blast Search results](BLASTN_ML00441a.png)
 
 **Nucleotide Blast search results** </br>
 
-![Protein Blast Search results](C:/Users/heavy/Documents/gdalba/Project/Group_Project/BLASTP_ML00441a.png)
+![Protein Blast Search results](BLASTP_ML00441a.png)
 
 #### 2.4.3 Create a Phylogenetic Tree using FigTree.
 
@@ -558,7 +558,7 @@ muscle -in ./BLAST_P.fasta -quiet -fasta -out BLASTP_Aligned.fasta
 /nfs/public/ro/es/appbin/linux-x86_64/clustalw-2.1/bin/clustalw2 -infile=simple_phylogeny-I20210422-022731-0145-87347698-p1m.upfile -tree -outputtree=phylip -clustering=Neighbour-joining
 ```
 
-![Phylogenetic Tree](C:/Users/heavy/Documents/gdalba/Project/Group_Project/BLAST_PTree1.jpg)
+![Phylogenetic Tree](BLAST_PTree1.jpg)
 
 In our tree we can see the Ctenophora as the earliest clade (the ML00441a gene region is annotated green), with the Cnidaria in a sister clade (branches annotated blue) to the human gene regions (branches annotated pink). Interestingly there is a lot of variation within the Ctenophora, with the ML00441a gene region sitting in a clade distinct from the other ctenophore species, with *Thalassocalyce inconstans*.  
 
