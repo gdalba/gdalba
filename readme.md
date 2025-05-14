@@ -6,13 +6,11 @@ I arrived in Canada 🇨🇦 in August 2020 and embarked on a journey to become 
 
 - I am particularly interested in evolutionary biology and its interface with genomics and population genetics (not so much mathematically, but macro and microevolutionarily). 
 
-- 💬 Ask me about:
+- 💬 Ask me about: Ctenophores!!!
 
-- Ctenophores!!! They are my favourite branch of the tree of life, and working with their genomics for four years was mostly englithening and humbling when it comes to looking at life.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philosophy of Science & Education!
 
-- Philosophy of Science & Education!
-
-- Creating bots for videogames.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating bots for videogames.
 
 - 🌱 I’m currently learning applications of evolutionary theory through cancer genomics; python project structure and management, including src/ layout & userless dependency management.
 
