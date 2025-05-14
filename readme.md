@@ -20,7 +20,7 @@ Let's connect!!
 
 <!--
 **gdalba/gdalba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+I am very much **not** abashed when I say I took this straight out of a person I respect and admire the most. I look up to her and her personality.
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
