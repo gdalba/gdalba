@@ -14,8 +14,6 @@ I arrived in Canada 🇨🇦 in August 2020 and embarked on a journey to become 
 
 - 🌱 I’m currently learning applications of evolutionary theory through cancer genomics; python project structure and management, including src/ layout & userless dependency management.
 
-- 🔭 I’m currently tinkering with an AI-generated python, windows-based gene browser guided mainly by Claude 3.7 Sonnet.
-
 ----
 Some of my repertoire:
 
